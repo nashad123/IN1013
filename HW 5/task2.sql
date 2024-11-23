@@ -9,7 +9,7 @@ SELECT AVG(bill_total) FROM restBill WHERE table_no = '2';
 
 4)
 SELECT MIN(table_no) FROM restREST_table WHERE room_name = 'Blue';
-SELECT AVG(table_no) FROM restREST_table WHERE room_name = 'Blue';
+SELECT MAX(table_no) FROM restREST_table WHERE room_name = 'Blue';
 SELECT AVG(table_no) FROM restREST_table WHERE room_name = 'Blue';
 
 5)
